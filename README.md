@@ -1,1 +1,1 @@
-# sorting_visualiser.github.io
+# sorting_visualizer.github.io
