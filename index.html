@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/eb1653aab2.js"></script>
+</head>
+<body>
+    <h1 class="header">Sorting Visualizer</h1>
+    <div class="sorting_algo">
+        <button>Bubble Sort</button>
+        <button>Merge Sort</button>
+        <button>Selection Sort</button>
+        <button>Quick Sort</button>
+        <button>Insertion Sort</button>
+        
+    </div>
+    <div class="settings">
+        <label>Set the size of array : </label>
+        <input id="arr_size" type="range" min=10 max=100 step=1 value=50>
+        <label>Set the speed of algo : </label>
+        <input id="algo_speed" type="range" min=1 max=9 step=2 value=5>
+        <button id="arr_gen">Generate new array</button>
+    </div>
+    <div id="array_section">
+        
+    </div>
+    <footer class='footer'>
+        <i class="fab fa-github fa-9px" style="color:black"></i>
+        <a href='https://github.com/BAAHUBALI7781'>Baahubali7781</a>
+    </footer>
+    <script src="./main/sort_main.js"></script>
+    <script src="./main/visuals.js"></script>
+    <script src="./sorting_algo/bubble_sort.js"></script>
+    <script src="./sorting_algo/insertion_sort.js"></script>
+    <script src="./sorting_algo/merge_sort.js"></script>
+    <script src="./sorting_algo/quick_sort.js"></script>
+    <script src="./sorting_algo/selection_sort.js"></script>
+    
+
+</body>
+
+</html>

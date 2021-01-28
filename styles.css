@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: silver;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style: none;
+    
+  }
+  
+  ul li {
+    padding: 5px;
+    margin: 5px 0;
+    display:inline;
+  }
+  .sorting_algo{
+    padding:10px;
+    float:left;
+  }
+
+  .sorting_algo button{
+    padding:5px;
+    margin-left:10px;
+    background-color:#f4f4f4;
+    border-radius: 2px;
+    border: 1px solid silver;
+    color:maroon;
+    font-family: cursive;
+  }
+  .sorting_algo button:hover{
+    color:white;
+    background-color: blue;
+  }
+  .settings{
+    padding:10px;
+    float:right;
+    margin-right: 40px;
+    
+    /* margin-left:px; */
+  }
+  .settings label{
+    margin-left:15px;
+  } 
+  .settings button{
+    margin-left:15px;
+    background-color:#3477eb;
+    padding:5px;
+    color:white;
+    font-family: cursive;
+    border-radius:4px;
+    border:2px solid silver
+  } 
+  .settings button:hover{
+    /* color:maroon; */
+    background-color:forestgreen;
+  }
+  #array_section
+    {
+        display: flex;
+        max-width: 90%;
+        margin-top: 70px;
+        margin-left:auto;
+        height: 73vh;
+        
+    }
+  .header {
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 800;
+    font-size:xx-large;
+    font-family:cursive;
+  }
+  .sorting_algo .block
+  {
+    color:grey;
+  }
+  .sorting_algo .block:hover{
+    background-color: #f4f4f4;
+    color:grey;
+  }
+
+  .sorting_algo .unblock
+  {
+    color:maroon;
+  }
+  .sorting_algo .selected{
+    color:white;
+    background-color: blue;
+  }
+  .sorting_algo .selected:hover{
+    background-color: blue;
+    color:white;
+  }
+  .footer{
+    /* margin-bottompx; */
+    text-align: center;
+    color:blue;
+    
+  }
+  .footer a{
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size:medium
+  }
+  .footer a:hover{
+    color:blue;
+  } 
