@@ -9,21 +9,30 @@
 </head>
 <body>
     <h1 class="header">Sorting Visualizer</h1>
-    <div class="sorting_algo">
-        <button>Bubble Sort</button>
-        <button>Merge Sort</button>
-        <button>Selection Sort</button>
-        <button>Quick Sort</button>
-        <button>Insertion Sort</button>
-        
+    <div class="container">
+        <div class="sorting_algo">
+            <button>Bubble Sort</button>
+            <button>Merge Sort</button>
+            <button>Selection Sort</button>
+            <button>Quick Sort</button>
+            <button>Insertion Sort</button>
+            
+        </div>
+        <div class="settings">
+                <div>
+                    <label>Set the size of array : </label>
+                    <input id="arr_size" type="range" min=10 max=100 step=1 value=50>
+                </div>
+                <div>
+                    <label>Set the speed of algo : </label>
+                    <input id="algo_speed" type="range" min=1 max=9 step=2 value=5>
+                </div>
+                <button id="arr_gen">Generate new array</button>
+            
+            
+        </div>
     </div>
-    <div class="settings">
-        <label>Set the size of array : </label>
-        <input id="arr_size" type="range" min=10 max=100 step=1 value=50>
-        <label>Set the speed of algo : </label>
-        <input id="algo_speed" type="range" min=1 max=9 step=2 value=5>
-        <button id="arr_gen">Generate new array</button>
-    </div>
+    
     <div id="array_section">
         
     </div>
